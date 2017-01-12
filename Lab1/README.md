@@ -16,7 +16,7 @@ This lab will introduce the Android Studio IDE and Android project structure thr
 Take note of the Minimum SDK (Software Development Kit). This will be the SDK for which your apps will be compiled against. Android Studio will use this information to provide accurate auto-complete as well as provide warnings when your code is not appropriately targeting the set minimum SDK.
 
 While you should target the most current version of the SDK, setting a minimum SDK allows you to get backward compatability with devices running older versions, allowing your application to run on a larger percentage of devices.
-* → Select Empty Activity, click Next
+* → Select Basic Activity, click Next
 
 ###### 2. Customize the Activity
 Take note of the default values on this screen. Your MainActivity will be the first activity to run when your application is launched. The **Layout Name**: field is the name associated with this main activity’s layout style. This **activity_main.xml** file will describe _how_ the activity should look in terms global design; toolbars, floating icons, dropdowns, etc. Another layout file, content_main.xml, will provide components specific to the needs of this activity; TextViews, EditText, Buttons, etcetera. This idea will be expounded on in the project structure breakdown.
